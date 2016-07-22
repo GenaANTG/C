@@ -11,7 +11,7 @@ by GenaANTG
 * Размер типов и массивов / **`sizeof`**
 * Работа с индексами через указатели
 
-**Видео-урок**: [YouTube](https://www.youtube.com/watch?v=57v3P3Kg9Gc)
+Видео-урок: [YouTube](https://www.youtube.com/watch?v=57v3P3Kg9Gc)
 
 Компиляция: **`gcc arrays.c -o arrays -Wall`**
 Запуск: **`./arrays`** для Linux, **`arrays.exe`** для Windows

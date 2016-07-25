@@ -12,6 +12,7 @@
 Видео-урок: [YouTube](https://www.youtube.com/watch?v=uDOMlyu3mBQ)
 
 Компиляция: `gcc strings.c -o strings -Wall`
+
 Запуск: `./strings --print --god-mode` для Linux, `strings.exe --print --god-mode` для Windows
 
 Удачи! :+1:

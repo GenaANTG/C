@@ -13,6 +13,7 @@
 Видео-урок: [YouTube](https://www.youtube.com/watch?v=E9LXRcL8MpE)
 
 Компиляция: `gcc loops.c -o loops -Wall`
+
 Запуск: `./loops` для Linux, `loops.exe` для Windows
 
 Удачи! :+1:

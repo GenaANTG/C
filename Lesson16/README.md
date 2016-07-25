@@ -12,6 +12,7 @@
 Видео-урок: [YouTube](https://www.youtube.com/watch?v=57v3P3Kg9Gc)
 
 Компиляция: `gcc arrays.c -o arrays -Wall`
+
 Запуск: `./arrays` для Linux, `arrays.exe` для Windows
 
 Удачи! :+1:

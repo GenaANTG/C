@@ -27,17 +27,20 @@ void validateFlags(const char * const flags[], const int const length)
 			// меняем состоянии на true, и обнуляем флаг incorrectFlagIndex
 			if (strcmp(flags[i], allowedFlags[j]) == 0) 
 			{
+				// Фиксируем совпадение, аргумент найден в списке разрешенных!
 				flagExists = true;
 				incorrectFlagIndex = -1;
 			}
 			else incorrectFlagIndex = i;
 		}
-		
-		// Если состояние flagExists осталось прежним(false) и
-		// incorrectFlagIndex не равен -1, то...
+
+		// Если флаг не найден (состояние flagExists осталось прежним - false) и
+		// incorrectFlagIndex не равен -1(то есть был взят индекс некорректного флага), то...
 		if (!flagExists && incorrectFlagIndex != -1)
 		{
 			printf("[-] Error: %s incorrect flag was given!\n", flags[incorrectFlagIndex]);
+			// Не даем программе двигаться с ошибкой дальше
+			// Завершаем выполнение программы с кодом ошибки
 			exit(EXIT_FAILURE);
 		}
 	}

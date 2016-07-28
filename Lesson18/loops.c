@@ -36,11 +36,23 @@ int main(void)
 		printf("%d\n", prices[i]);
 	}
 
-	// do {
+	// Если использовать одну инструкцию в теле while, for, if, else
+	// то фигурные скобки можно не писать
+	printf("For Loop Short Form:\n");
 
-	// } while(условие);
+	for (int i = 0; i < SIZE; i++) printf("%d\n", prices[i]);
 
-	// ...
+	printf("Do-While Loop:\n");
+
+	// Разница с while в том, что здесь тело цикла
+	// выполняется как минимум один раз: сначала выполняется,
+	// затем идет проверка условия
+	int j = 0;
+	
+	do {
+		printf("%d\n", prices[j]);
+		j++;	
+	} while(j < SIZE); // обратить внимание на точку с запятой!
 
 	return 0;
 }

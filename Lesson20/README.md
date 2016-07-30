@@ -7,7 +7,7 @@
 * Легкая оптимизация прохода аргументов
 * Цветной вывод информации на консоль
 
-Видео-урок: [YouTube](https://www.youtube.com/watch?v=_vUpHQVRwlM)
+Видео-урок: [YouTube](https://www.youtube.com/watch?v=7y6hT92rLTY)
 
 Компиляция: `gcc validator.c -o validator -Wall`
 

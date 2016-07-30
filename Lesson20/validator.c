@@ -22,7 +22,8 @@ void validateFlags(const char * const flags[], const int const length)
 	{
 		for (int j = 0; j < allowedFlagsLength; j++)
 		{
-			if (strcmp(flags[i], allowedFlags[j]) == 0) {
+			if (strcmp(flags[i], allowedFlags[j]) == 0) 
+			{
 				incorrectFlagIndex = -1;
 				break;
 			}

@@ -69,10 +69,12 @@ void helpCommand(void)
 
 int main(const int const argc, const char * const argv[])
 {
-	if (argc > 1) validateFlags(argv, argc);
+	if (argc > 1) 
+	{
+		validateFlags(argv, argc);
+    	invokeCommands(argv, argc);
+	}
 	else printf(AC_GREEN "[+] Congratulations!%s\n", AC_RESET);
-
-    invokeCommands(argv, argc);
 
 	return EXIT_SUCCESS;
 }

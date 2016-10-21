@@ -10,6 +10,7 @@
 * Разбираем массив указателей на функции
 
 Компиляция: `gcc app.c -o app -Wall`
+
 Для gcc 4ой версии добавить флаг `--std=c99`: `gcc app.c -o app -Wall --std=c99`
 
 Запуск: `./app --version --help` для Linux, `app.exe --version --help` для Windows

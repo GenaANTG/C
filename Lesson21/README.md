@@ -10,6 +10,8 @@
 * Разбираем массив указателей на функции
 * Понятие прототипа функции
 
+Видео-урок: [YouTube](https://www.youtube.com/watch?v=PXnhyFNxWjs)
+
 Компиляция: `gcc app.c -o app -Wall`
 
 Для gcc 4ой версии добавить флаг `--std=c99`: `gcc app.c -o app -Wall --std=c99`

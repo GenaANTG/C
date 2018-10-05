@@ -12,7 +12,7 @@ int main(void)
 
 	printf("True: %d, False: %d\n", isTrue, isFalse);
 
-	printf("While Loop:\n");
+	printf(" 'While' Loop:\n");
 
 	int i = 0;
 
@@ -22,14 +22,14 @@ int main(void)
 		i++;
 	}
 
-	printf("For Loop:\n");
+	printf(" 'For' Loop:\n");
 
 	for (int i = 0; i < SIZE; i++)
 	{
 		printf("%d\n", prices[i]);
 	}
 
-	printf("Second For Loop:\n");
+	printf("Second 'For' Loop:\n");
 
 	for (int i = 0; i < SIZE; i++)
 	{

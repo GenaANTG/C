@@ -11,6 +11,9 @@
 * Заголовочный файл `stdbool.h` и тип `bool`
 
 Видео-урок: [YouTube](https://www.youtube.com/watch?v=E9LXRcL8MpE)
+Email:
+Contact:
+Linkedin Url:
 
 Компиляция: `gcc loops.c -o loops -Wall`
 
